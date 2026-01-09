@@ -19,8 +19,8 @@ var menuState = function(game){
             
             this.buttons = new menuButtons(game);
             this.buttons.create();
-            this.menuTitle = game.add.sprite(game.world.centerX,game.world.height-450,'menu-title');
-            this.menuTitle.anchor.setTo(0.5,0.5);
+            /*this.menuTitle = game.add.sprite(game.world.centerX,game.world.height-450,'menu-title');
+            this.menuTitle.anchor.setTo(0.5,0.5);*/
             
             if(game.global.soundPlay){
                 game.global.menuBgSound.play();
